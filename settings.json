@@ -1,0 +1,198 @@
+{
+  // ========================================
+  // 💬 CHAT SETTINGS
+  // ========================================
+  "chat.editor.wordWrap": "on",
+
+  // ========================================
+  // 🔄 DIFF EDITOR SETTINGS
+  // ========================================
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.wordWrap": "on",
+
+  // ========================================
+  // ✏️ EDITOR SETTINGS
+  // ========================================
+
+  // Core Editor
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.fontFamily": "Geist Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "ss09",
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.linkedEditing": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
+
+  // Code Actions
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Goto Behavior
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // ========================================
+  // 🚀 EMMET SETTINGS
+  // ========================================
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html",
+    "react": "html",
+    "javascript": "html"
+  },
+
+  // ========================================
+  // 🗂️ EXPLORER SETTINGS
+  // ========================================
+  "explorer.confirmDelete": false,
+  "explorer.sortOrder": "default",
+
+  // ========================================
+  // 🔧 GIT SETTINGS
+  // ========================================
+  "git.decorations.enabled": false,
+
+  // ========================================
+  // 💅 PRETTIER SETTINGS
+  // ========================================
+  "prettier.useEditorConfig": false,
+
+  // ========================================
+  // 🔄 SCM SETTINGS
+  // ========================================
+  "scm.diffDecorations": "none",
+
+  // ========================================
+  // 🎨 TAILWIND CSS SETTINGS
+  // ========================================
+  "tailwindCSS.experimental.configFile": null,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+
+  // ========================================
+  // 🪟 WINDOW SETTINGS
+  // ========================================
+  "window.commandCenter": false,
+  "window.nativeFullScreen": true,
+  "window.newWindowDimensions": "inherit",
+
+  // ========================================
+  // 🎨 WORKBENCH SETTINGS
+  // ========================================
+  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 15,
+
+  // Workbench Editor
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+
+  // ========================================
+  // 🔧 LANGUAGE-SPECIFIC FORMATTERS
+  // ========================================
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ========================================
+  // 🖥️ LAYOUT & PANELS
+  // ========================================
+
+  "workbench.sideBar.location": "left",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "hidden",
+  "chat.commandCenter.enabled": true,
+  "workbench.layoutControl.enabled": false,
+  "editor.inlineSuggest.edits.showCollapsed": true,
+
+  // ========================================
+  // 🗂️ WORKBENCH EDITOR CUSTOM LABEL
+  // ========================================
+  "workbench.editor.customLabels.patterns": {
+    "**/model.*": "🧬 ${dirname}",
+    "**/index.*.*": "🗝️ ${dirname}@${extname(-1)}",
+    "**/index.*": "🗝️ ${dirname}",
+    "**/route.*": "🌐 ${dirname}",
+    "**/page.tsx": "🌐 ${dirname}",
+    "**/page.*.*": "🌐 ${dirname}@${extname(-1)}",
+    "**/prisma/migrations/*/migration.sql": "🚚 ${dirname}",
+    "**/*/@x/*.*.*": "🗝️ ${dirname(1)} → ${filename}@${extname(-1)}",
+    "**/*/@x/*.*": "🗝️ ${dirname(1)} → ${filename}"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // ========================================
+  // 🎨 VSCODE CUSTOM CSS
+  // ========================================
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "custom-ui-style.electron": {
+    "frame": false
+  },
+  "custom-ui-style.external.imports": [
+    "file:///Users/snow/Developer/VSnowCode/snowui.js"
+  ],
+  "custom-ui-style.stylesheet": {
+    ".monaco-workbench": {
+      "&:not(.fullscreen)": {
+        ".activitybar, .statusbar, .tabs-container, .sidebar .composite.title": {
+          "-webkit-app-region": "drag",
+          ".content .monaco-action-bar, .statusbar-item, .tab, .title .title-actions .action-label": {
+            "-webkit-app-region": "no-drag"
+          }
+        }
+      }
+    },
+    ".monaco-editor-hover, .monaco-hover": {
+      "backdrop-filter": "blur(10px) !important",
+      "background": "#00000030 !important"
+    },
+    "#command-blur": {
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background": "rgba(0, 0, 0, 0.15)",
+      "top": "0",
+      "left": "0",
+      "backdrop-filter": "blur(10px)",
+      "z-index": "1000"
+    }
+  },
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
+}
