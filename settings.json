@@ -87,14 +87,10 @@
   // ========================================
   // 🪟 WINDOW SETTINGS
   // ========================================
+  "workbench.colorTheme": "Community Material Theme Ocean",
   "window.commandCenter": false,
   "window.nativeFullScreen": true,
   "window.newWindowDimensions": "inherit",
-
-  // ========================================
-  // 🎨 WORKBENCH SETTINGS
-  // ========================================
-  "workbench.colorTheme": "Community Material Theme Ocean",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.enableStickyScroll": false,
@@ -156,11 +152,6 @@
     "**/*/@x/*.*": "🗝️ ${dirname(1)} → ${filename}"
   },
   "github.copilot.nextEditSuggestions.enabled": true,
-
-  // ========================================
-  // 🎨 VSCODE CUSTOM CSS
-  // ========================================
-  "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
   "custom-ui-style.electron": {
     "frame": false
@@ -181,7 +172,7 @@
     },
     ".monaco-editor-hover, .monaco-hover": {
       "backdrop-filter": "blur(10px) !important",
-      "background": "#00000030 !important"
+      "background": "#0F111A30 !important"
     },
     "#command-blur": {
       "position": "absolute",
@@ -194,5 +185,6 @@
       "z-index": "1000"
     }
   },
-  "workbench.secondarySideBar.defaultVisibility": "hidden"
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on"
 }
