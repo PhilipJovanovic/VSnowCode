@@ -163,7 +163,7 @@
       "&:not(.fullscreen)": {
         ".activitybar, .statusbar, .tabs-container, .sidebar .composite.title": {
           "-webkit-app-region": "drag",
-          ".content .monaco-action-bar, .statusbar-item, .tab, .title .title-actions .action-label": {
+          ".content .monaco-action-bar, .statusbar-item, .tab, .title .title-actions .action-label, .mouse-support": {
             "-webkit-app-region": "no-drag"
           }
         }
