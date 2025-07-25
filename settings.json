@@ -87,7 +87,6 @@
   // ========================================
   // 🪟 WINDOW SETTINGS
   // ========================================
-  "workbench.colorTheme": "Community Material Theme Ocean",
   "window.commandCenter": false,
   "window.nativeFullScreen": true,
   "window.newWindowDimensions": "inherit",
@@ -185,6 +184,7 @@
       "z-index": "1000"
     }
   },
+  "workbench.colorTheme": "Community Material Theme Ocean",
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on"
 }
